@@ -18,21 +18,25 @@ const myFont = localFont({ src: [{
 
 
 const BgBorder = () => {
-
-  const [isLoaded, setIsLoaded] = useState(false);
-  useEffect(() => {
-    setIsLoaded(true);
-  }, []);
   const { theme } = useTheme();
-  return theme === "light" && isLoaded? (
-    <img src="/bg_top_border.png" alt="grid-item-bg1" className="absolute top-0 left-0 w-full h-4 z-[1] object-cover" />
-  ): null
+  return theme === "light" && (
+    
+    <Image 
+
+      width={1184}
+      height={38}
+      src={
+      theme === "light"
+      ? "/bg_top_border.png"
+      : "/bg_top_border.png"
+  } alt="grid-item-bg1" className="absolute top-0 left-0 w-full h-4 z-[1] object-cover" />
+  )
 }
 
 export const JoinUsSection = () => {
   const { theme } = useTheme();
   return (
-    <section id="Franchising and Events" className={cn("container w-full px-16 relative bg-[#FFF1F8]")}>
+    <section id="Franchising and Events" className={cn("container w-full px-16 relative", theme === "light" && "bg-[#FFF1F8]")}>
       
       <BgBorder />
       

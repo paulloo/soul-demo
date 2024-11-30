@@ -33,7 +33,7 @@ interface SocialNetworkProps {
 export const TeamSection = () => {
   const teamList: TeamProps[] = [
     {
-      imageUrl: "https://i.pravatar.cc/250?img=50",
+      imageUrl: "/team/11.jpeg",
       firstName: "Leo",
       lastName: "Miranda",
       positions: ["Vue Fronted Developer", "Creator Of This Website"],
@@ -53,8 +53,7 @@ export const TeamSection = () => {
       ],
     },
     {
-      imageUrl:
-        "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      imageUrl: "/team/12.jpeg",
       firstName: "Elizabeth",
       lastName: "Moore",
       positions: ["UI/UX Designer"],
@@ -70,8 +69,7 @@ export const TeamSection = () => {
       ],
     },
     {
-      imageUrl:
-        "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      imageUrl: "/team/13.jpeg",
       firstName: "David",
       lastName: "Diaz",
       positions: ["Machine Learning Engineer", "TensorFlow Tinkerer"],
@@ -87,8 +85,7 @@ export const TeamSection = () => {
       ],
     },
     {
-      imageUrl:
-        "https://images.unsplash.com/photo-1573497161161-c3e73707e25c?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      imageUrl: "/team/14.jpeg",
       firstName: "Sarah",
       lastName: "Robinson",
       positions: ["Cloud Native Developer", " Kubernetes Orchestrator"],
@@ -108,8 +105,7 @@ export const TeamSection = () => {
       ],
     },
     {
-      imageUrl:
-        "https://images.unsplash.com/photo-1616805765352-beedbad46b2a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      imageUrl: "/team/21.jpeg",
       firstName: "Michael",
       lastName: "Holland",
       positions: ["DevOps Engineer", "CI/CD Pipeline Mastermind"],
@@ -121,8 +117,7 @@ export const TeamSection = () => {
       ],
     },
     {
-      imageUrl:
-        "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      imageUrl: "/team/22.jpeg",
       firstName: "Zoe",
       lastName: "Garcia",
       positions: ["JavaScript Evangelist", "Deno Champion"],
@@ -138,8 +133,7 @@ export const TeamSection = () => {
       ],
     },
     {
-      imageUrl:
-        "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      imageUrl: "/team/23.png",
       firstName: "Evan",
       lastName: "James",
       positions: ["Backend Developer"],
@@ -159,8 +153,94 @@ export const TeamSection = () => {
       ],
     },
     {
-      imageUrl:
-        "https://images.unsplash.com/photo-1573497019236-17f8177b81e8?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1573497019236-17f8177b81e8?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      imageUrl: "/team/24.jpeg",
+      firstName: "Pam",
+      lastName: "Taylor",
+      positions: ["Fullstack Developer", "UX Researcher"],
+      socialNetworks: [
+        {
+          name: "X",
+          url: "https://x.com/leo_mirand4",
+        },
+      ],
+    },
+    {
+      imageUrl: "/team/31.jpeg",
+      firstName: "Pam",
+      lastName: "Taylor",
+      positions: ["Fullstack Developer", "UX Researcher"],
+      socialNetworks: [
+        {
+          name: "X",
+          url: "https://x.com/leo_mirand4",
+        },
+      ],
+    },
+    {
+      imageUrl: "/team/32.jpeg",
+      firstName: "Pam",
+      lastName: "Taylor",
+      positions: ["Fullstack Developer", "UX Researcher"],
+      socialNetworks: [
+        {
+          name: "X",
+          url: "https://x.com/leo_mirand4",
+        },
+      ],
+    },
+    {
+      imageUrl: "/team/33.jpeg",
+      firstName: "Pam",
+      lastName: "Taylor",
+      positions: ["Fullstack Developer", "UX Researcher"],
+      socialNetworks: [
+        {
+          name: "X",
+          url: "https://x.com/leo_mirand4",
+        },
+      ],
+    },
+    {
+      imageUrl: "/team/34.jpeg",
+      firstName: "Pam",
+      lastName: "Taylor",
+      positions: ["Fullstack Developer", "UX Researcher"],
+      socialNetworks: [
+        {
+          name: "X",
+          url: "https://x.com/leo_mirand4",
+        },
+      ],
+    },
+
+    {
+      imageUrl: "/team/41.png",
+      firstName: "Pam",
+      lastName: "Taylor",
+      positions: ["Fullstack Developer", "UX Researcher"],
+      socialNetworks: [
+        {
+          name: "X",
+          url: "https://x.com/leo_mirand4",
+        },
+      ],
+    },
+
+    {
+      imageUrl: "/team/42.png",
+      firstName: "Pam",
+      lastName: "Taylor",
+      positions: ["Fullstack Developer", "UX Researcher"],
+      socialNetworks: [
+        {
+          name: "X",
+          url: "https://x.com/leo_mirand4",
+        },
+      ],
+    },
+
+    {
+      imageUrl: "/team/43.png",
       firstName: "Pam",
       lastName: "Taylor",
       positions: ["Fullstack Developer", "UX Researcher"],

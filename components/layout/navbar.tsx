@@ -72,7 +72,7 @@ const featureList: FeatureProps[] = [
 export const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   return (
-    <header className="bg-opacity-15 md:w-[70%] lg:w-[1440px] top-5 mx-auto sticky  z-40 rounded-2xl flex justify-between items-center p-2 bg-card">
+    <header className="bg-opacity-15 md:w-[70%] lg:w-[85%] top-5 mx-auto sticky  z-40 rounded-2xl flex justify-between items-center p-2 bg-card">
       <Link href="/" className="font-bold text-lg flex items-center">
 
         <img src="/logo.png" alt="logo" className="w-[104px] h-[80px] mr-2" />
